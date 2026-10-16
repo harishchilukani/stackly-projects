@@ -1,0 +1,1 @@
+1|harish|harish@gmail.com|90.0|90|ACTIVE|1|JAVA|3
