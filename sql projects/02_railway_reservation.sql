@@ -36,11 +36,6 @@ VALUES
 (3, 'Karthik', 450, 'Cancelled'),
 (2, 'Meena', 300, 'Confirmed');
 
-
--- ============================================
--- BASIC + WHERE + OPERATORS
--- ============================================
-
 -- Q41. Retrieve all bookings with fare greater than 400.
 SELECT *
 FROM bookings
@@ -69,11 +64,6 @@ WHERE fare BETWEEN 300 AND 500;
 SELECT *
 FROM bookings
 WHERE passenger_name LIKE 'A%';
-
-
--- ============================================
--- JOINS + GROUP BY + ORDER BY
--- ============================================
 
 -- Q46. Retrieve train names along with passenger names.
 SELECT
@@ -116,10 +106,6 @@ LEFT JOIN bookings AS b
 GROUP BY t.train_id, t.train_name
 ORDER BY t.train_id;
 
-
--- ============================================
--- SUBQUERIES
--- ============================================
 
 -- Q49. Find bookings with fare equal to the highest fare.
 SELECT *
